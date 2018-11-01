@@ -1,4 +1,4 @@
 language: cpp
 compiler: clang
 script:
-- g++ fs.cpp 
+- g++ -std=c++11 fs.cpp -o fs
