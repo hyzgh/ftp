@@ -1,2 +1,4 @@
 language: cpp
-compiler: g++
+compiler: clang
+script:
+- g++ fs.cpp 
